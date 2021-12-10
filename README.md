@@ -69,7 +69,6 @@ Users should be able to:
 
 - [Github] (https://github.com/)
 - [Vercel] (https://vercel.com/dashboard)
-- 
 ## Author
 
 - ENS - [williamclay.eth](https://etherscan.io/address/0x82A6aF0fCE72997068D134921F1363140f7009e9)
