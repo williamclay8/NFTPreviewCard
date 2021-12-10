@@ -2,83 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-
-    <title>Frontend Mentor | Stats preview card component</title>
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-        color: white;
-      }
-
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
+    <title>NFT PREVIEW CARD</title>
   </head>
-
   <body>
-    <section class="card">
-      <header>
-        <div class="img-head">
-          <img
-            src="./images/image-header-mobile.jpg"
-            class="mobile-img"
-            alt="business_view"
-          />
-          <img
-            src="./images/image-header-desktop.jpg"
-            class="desktop-img"
-            alt="business"
-          />
+    <div class="container">
+      <div class="card-container">
+        <img
+          src="./images/image-equilibrium.jpg"
+          alt="A small transparent cube illustrated"
+          class="card-image"
+        />
+        <h1 class="card-title">Equilibrium #3429</h1>
+        <p class="card-description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="card-curr-info">
+          <h2 class="card-amount">
+            <img src="./images/icon-ethereum.svg" class="card-icon" />
+            0.041 ETH
+          </h2>
+          <h2 class="card-days">
+            <img src="./images/icon-clock.svg" class="card-icon" />
+            3 days left
+          </h2>
         </div>
-      </header>
-      <div class="card-wrapper">
-        <h1>Get <span>insights</span> that help your business grow.</h1>
-        <main>
-          <p>
-            Discover the benefits of data analytics and make better decisions
-            regarding revenue, customer experience, and overall efficiency.
-          </p>
-          <div class="stat">
-            <div class="gap">
-              <h2 class="stat-head">10k+</h2>
-              <p class="stat-para">companies</p>
-            </div>
-            <div class="gap">
-              <h2 class="stat-head">314</h2>
-              <p class="stat-para">templates</p>
-            </div>
-            <div class="gap">
-              <h2 class="stat-head">12M+</h2>
-              <p class="stat-para">queries</p>
-            </div>
-          </div>
-        </main>
+        <hr />
+        <div class="card-avatar-info">
+          <div class="card-avatar-image"></div>
+          <h3 class="card-avatar-name">
+            Creation of
+            <span> Jules Wyvern </span>
+          </h3>
+        </div>
       </div>
-    </section>
-    <footer>
       <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">williamclay.eth</a>.
+        Coded by <a href="https://github.com/karabo-r">Karabo-r</a>
       </div>
-    </footer>
+    </div>
   </body>
 </html>
