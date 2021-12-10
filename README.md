@@ -59,8 +59,9 @@ Users should be able to:
 
 ### What I learned
 
--Github
--Deploying a project through Vercel
+- Github
+
+- Deploying a project through Vercel
 
 
 
