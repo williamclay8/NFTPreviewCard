@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>NFT PREVIEW CARD</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="card-container">
-        <img
-          src="./images/image-equilibrium.jpg"
-          alt="A small transparent cube illustrated"
-          class="card-image"
-        />
-        <h1 class="card-title">Equilibrium #3429</h1>
-        <p class="card-description">
-          Our Equilibrium collection promotes balance and calm.
-        </p>
-        <div class="card-curr-info">
-          <h2 class="card-amount">
-            <img src="./images/icon-ethereum.svg" class="card-icon" />
-            0.041 ETH
-          </h2>
-          <h2 class="card-days">
-            <img src="./images/icon-clock.svg" class="card-icon" />
-            3 days left
-          </h2>
-        </div>
-        <hr />
-        <div class="card-avatar-info">
-          <div class="card-avatar-image"></div>
-          <h3 class="card-avatar-name">
-            Creation of
-            <span> Jules Wyvern </span>
-          </h3>
-        </div>
-      </div>
-      <div class="attribution">
-        Coded by <a href="https://github.com/karabo-r">Karabo-r</a>
-      </div>
+
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8" />
+  <title>Frontend Mentor | NFT preview card component</title>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet" />
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+  <style></style>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+</head>
+
+<body>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <main>
+    <div class="main__photo">
+      <img class="photo" src="images/image-equilibrium.jpg" alt="Equilibrium" />
+      <div class="cover"></div>
     </div>
-  </body>
+
+    <h1 class="headline">Equilibrium #3429</h1>
+    <p class="desc">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="clearfix">
+      <p class="price">0.041 ETH</p>
+      <p class="timeleft">3 days left</p>
+    </div>
+    <hr />
+    <div class="creator">
+      <img class="creator__photo" src="https://imgur.com/a/fS03UGz" alt="williamclay.eth" />
+      <p>Creation of&nbsp;<span class="creator__name">williamclay.eth</span></p>
+    </div>
+  </main>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+    Coded by <a href="https://github.com/ob2code">williamclay.eth</a>
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
 </html>
